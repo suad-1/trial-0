@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+Header div{
+    height: 190px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+}
+ header img{
+ /*width auto;
+ height: 100px;*/
+}
+
+.menu-links{
+    display: flex; 
+    gap: 25px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+.menu-links a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.menu-links a:hover{
+    color:grey;
+}
+.click{
+    background: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.click:hover{
+    background-color: black;
+    color: white;
+}  
+
+.hero-banner{
+    position: relative;
+}
+   
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    max-width: 550px;
+}
+
+.hero-text h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.hero-text p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: lightgrey;
+}
+
+.hero-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img{
+max-width: 100%;
+height: auto;
+display: block;
+border-radius: 30px;
+}
+
+@media (max-width: 768px){
+    .hero-banner{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+}
+
+.features-section{
+  position: relative;  
+  display:flex;  
+  margin: 100px 25px;
+}
+
+.vedio-section{ 
+padding-bottom: 56.25%;
+display: block;
+border-radius: 30px;
+overflow: hidden;
+} 
+
+.vedio-section iframe{ 
+border-radius: 12px;    
+width: 400px;
+height: 250px;
+border: none; 
+margin-bottom: 24px;
+border-left: solid;
+border-right: solid;
+}
+
+.enter{
+cursor: pointer;
+padding: 10px 20px;
+border-radius: 30px;
+color: white;
+background: blue;
+border: none;
+margin-bottom: 20px;
+}
+
+h3{
+margin-top: 24px;
+margin-bottom: 30px;
+font-size: 20px;
+}
+
+p{
+margin-top: 30px;
+margin-bottom: 20px;
+font-size: 20px;    
+}
+
+.features-content{
+margin: -50px 80px;
+font-size: 20px;
+}
+
+.features-list{
+text-align: justify; 
+}
+
+.part{
+position: relative;  
+display:flex;  
+margin-top: 24px;
+}
+
+.part-image img{
+max-width: 90%;
+height: auto;
+border-radius: 30px;   
+}
